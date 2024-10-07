@@ -16,7 +16,11 @@ Answer the questions asked by the script and it will take care of the rest. For 
 
 ```bash
 git clone https://github.com/jakeloftis/wg_gaming_installer.git
+```
+```bash
 cd ./wg_gaming_installer
+```
+```bash
 ./install.sh
 ```
 ## Stop / Restart / Uninstall / List clients / Add/Remove a client 
