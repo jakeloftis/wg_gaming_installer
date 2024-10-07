@@ -99,7 +99,7 @@ Download and execute the script. Script user needs to be able to use `sudo` comm
 Answer the questions asked by the script and it will take care of the rest. For most VPS providers, you can just enter through all the questions.
 
 ```bash
-git clone https://github.com/xiahualiu/wg_gaming_installer.git
+git clone https://github.com/jakeloftis/wg_gaming_installer.git
 cd ./wg_gaming_installer
 ./install.sh
 ```
