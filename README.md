@@ -5,17 +5,8 @@
 Because WireGuard is a kernel module, you **MUST** upgrade the kernel to latest first and reboot your server once.
 
 ```bash
-# If you are using Ubuntu/Debian, etc
+# If you are using Ubuntu 24.04
 sudo apt update && sudo apt upgrade -y
-
-# If you are using Fedora, AlmaLinux, etc
-sudo dnf update -y
-
-# Arch, etc.
-sudo pacman -Syu
-
-# Reboot once
-sudo reboot
 ```
 
 ### 2nd Step: Download and run the script.
