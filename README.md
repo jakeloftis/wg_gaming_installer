@@ -3,9 +3,8 @@
 ### 1st Step: Upgrade OS
 
 Because WireGuard is a kernel module, you **MUST** upgrade the kernel to latest first and reboot your server once.
-
-```bash
 # If you are using Ubuntu 24.04
+```bash
 sudo apt update && sudo apt upgrade -y
 ```
 
