@@ -8,12 +8,6 @@ Because WireGuard is a kernel module, you **MUST** upgrade the kernel to latest 
 sudo apt update && sudo apt upgrade -y
 ```
 
-### Optional 1.5 Step: Install GIT for minimal install images
-```bash
-sudo apt install git -y
-```
-
-
 ### 2nd Step: Download and run the script.
 
 Download and execute the script. Script user needs to be able to use `sudo` command.
