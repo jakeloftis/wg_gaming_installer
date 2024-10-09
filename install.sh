@@ -545,6 +545,7 @@ restartWGServer() {
 showClientQRCode() {
 	qrencode -t ansiutf8 -l L <"${SCRIPT_TEMP_FOLDER}/$SERVER_WG_NIC-client-${CLIENT_NAME}.conf"
 	echo "It is also available in ${SCRIPT_TEMP_FOLDER}/$SERVER_WG_NIC-client-${CLIENT_NAME}.conf"
+ 	cat "${SCRIPT_TEMP_FOLDER}/$SERVER_WG_NIC-client-${CLIENT_NAME}.conf"
 }
 
 listAllWGClients() {
