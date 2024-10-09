@@ -7,7 +7,10 @@ Because WireGuard is a kernel module, you **MUST** upgrade the kernel to latest 
 ```bash
 sudo apt update && sudo apt upgrade -y
 ```
-
+# Reboot after update and upgrade
+```bash
+sudo reboot
+```
 ### 2nd Step: Download and run the script.
 
 Download and execute the script. Script user needs to be able to use `sudo` command.
