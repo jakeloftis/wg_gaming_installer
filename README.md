@@ -10,7 +10,7 @@ sudo apt update && sudo apt upgrade -y
 
 ### Optional 1.5 Step: Install GIT for minimal install images
 ```bash
-sudo apt install git
+sudo apt install git -y
 ```
 
 
