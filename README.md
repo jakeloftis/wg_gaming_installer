@@ -11,12 +11,6 @@ sudo apt update && sudo apt upgrade -y
 ```bash
 sudo reboot
 ```
-
-### If you are using Oracle
-```
-
-```
-
 ### 2nd Step: Download and run the script.
 
 Download and execute the script. Script user needs to be able to use `sudo` command.
